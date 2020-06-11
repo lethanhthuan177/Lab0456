@@ -12,6 +12,7 @@ namespace ThanhThuan_Lab456.Models
         public DbSet<Course> Courses { get; set; }
         public DbSet<Category> Catagories { get; set; }
 
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
