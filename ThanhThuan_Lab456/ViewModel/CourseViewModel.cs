@@ -9,7 +9,7 @@ namespace ThanhThuan_Lab456.ViewModel
 {
     public class CourseViewModel : Controller
     {
-        public string Place { get; set; }
+        public string Place { get; set; } 
         public string Date { get; set; }
         public string Time { get; set; }
         public byte Category { get; set; }
